@@ -1,3 +1,6 @@
+package version1;
+
+
 import org.apache.log4j.Logger;
 
 import java.io.BufferedReader;
@@ -16,7 +19,7 @@ public class ReadFile {
 
     /**
      * Lee el archivo y loggea las lineas que concuerdan con la búqueda
-     * @param nombrearchivo
+     * @param
      * @return
      */
     public int leerArchivo(String rutaArchivo) throws FileNotFoundException, IOException {
